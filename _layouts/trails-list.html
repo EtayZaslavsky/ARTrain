@@ -21,10 +21,10 @@ layout: default
         {{ post.title | escape }}
         <!-- </a> -->
       </h3>
-      <img src="{{ post.image }}">
+      <img src="{{ site.baseurl }}{{ post.image }}">
       <code>
         {{ post.content }}
-        להורדת המסלול לאפליקציית הריצה המועדפת עליך <a href="{{ post.route | relative_url }}">השתמש בקישור זה</a>.
+        להורדת המסלול לאפליקציית הריצה המועדפת עליך <a href="{{ site.baseurl }}{{ post.route }}">השתמש בקישור זה</a>.
       </code>
     </li>
     {%- endfor -%}
