@@ -22,8 +22,8 @@ title: ARTrain
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   ARTrain היא אפליקציה מוטיבציונית לריצה. היא עוזרת לך לקחת מילה משמעותית או ציור ולהמיר אותם למסלול ריצה.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ARTrain"
+url: "https://zaslavsky.co.il" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
