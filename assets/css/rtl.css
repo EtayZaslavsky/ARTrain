@@ -1,0 +1,17 @@
+/* assets/css/rtl.css */
+
+/* Set the direction to RTL for the body */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+a.site-title {
+    float: right;
+}
+
+nav.site-nav {
+    float: left;
+}
+
+/* Additional RTL adjustments can be added here */
